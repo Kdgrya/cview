@@ -40,3 +40,10 @@ void pintar(BmpMask* bm, sdl_config *config)
 	SDL_RenderPresent(config->render);
 	SDL_Delay(6000);
 }
+
+
+void SDL_Quit(sdl_config *config) {
+	free(config);
+}
+
+
