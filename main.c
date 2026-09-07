@@ -42,7 +42,7 @@ int main(void)
 	
 }
 
-static void exit(BmpMask* bm){
+static void exit(BmpMask* bm, sdl_config* conf; ){
     BMP_quit(bm);
-    SDL_Quit();
+    SDL_Quit(conf);
 };
