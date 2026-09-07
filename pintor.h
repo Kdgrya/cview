@@ -18,4 +18,4 @@ void DRAW_VIEW(void);
 void SET_DIM_VIEW();
 void SET_FLIP_VIEW();
 
-void BMP_quit();
+void SDL_Quit(sdl_config *config);
