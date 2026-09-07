@@ -84,6 +84,6 @@ void mid(BmpMask* bm){
     }
 }
 
-void BMP_quit(){
-
+void BMP_quit(BmpMask* bm){
+    free(bm);
 }
